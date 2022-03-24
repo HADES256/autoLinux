@@ -3,3 +3,12 @@
 sources/linux-stable/
 *.img
 sources/packages.tar
+*.xz
+make.sh
+*.tar
+*.gz
+*.bz2
+*.patch
+sources/11.1/check.sh
+sources/11.1/md5sums
+sources/11.1/wget-list

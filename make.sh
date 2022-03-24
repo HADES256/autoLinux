@@ -14,4 +14,5 @@ sudo mkdir -pv $LFS
 sudo mount -v -t ext4 bin/linuxBootable.img $LFS
 sudo mkdir -v $LFS/sources
 sudo chmod -v a+wt $LFS/source
-wget -O sources/packages.tar http://ftp.lfs-matrix.net/pub/lfs/lfs-packages/lfs-packages-11.1.tar
+wget -O packages.tar http://ftp.lfs-matrix.net/pub/lfs/lfs-packages/lfs-packages-11.1.tar
+tar -xf packages.tar -C sources
