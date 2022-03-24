@@ -2,3 +2,4 @@
 
 sources/linux-stable/
 *.img
+sources/packages.tar
