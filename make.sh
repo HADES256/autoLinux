@@ -16,3 +16,4 @@ sudo mkdir -v $LFS/sources
 sudo chmod -v a+wt $LFS/source
 wget -O packages.tar http://ftp.lfs-matrix.net/pub/lfs/lfs-packages/lfs-packages-11.1.tar
 tar -xf packages.tar -C sources
+sudo cp sources/11.1/*.* $LFS/sources

@@ -12,3 +12,4 @@ make.sh
 sources/11.1/check.sh
 sources/11.1/md5sums
 sources/11.1/wget-list
+sources/11.1/extra.sh
